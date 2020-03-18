@@ -1,0 +1,23 @@
+{
+  "name": "rocketseat-nodejs",
+  "version": "1.0.0",
+  "description": "Curso de NodeJs da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonhh/rocketseat-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksonhh/rocketseat-nodejs/issues"
+  },
+  "homepage": "https://github.com/jacksonhh/rocketseat-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
