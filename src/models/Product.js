@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+const mongoosePaginate = require('mongoose-paginate');
 const ProductSchema = new mongoose.Schema({
     // campos a salvar no DB
     title: {
@@ -19,5 +19,7 @@ const ProductSchema = new mongoose.Schema({
         default: Date.now,
     },
 });
+
+ProductSchema.plugin(mongoosePaginate);
 
 mongoose.model('Product', ProductSchema);

@@ -62,3 +62,14 @@
     sempre utilziar metodo post quando for criar algo na aplicacao
     new Request - index rota get passando a url da rota
     alterar o server.js para permitir que a aplicacao receba informacoes no formato json
+
+# Aula 12 - CRUD 
+    create, read, update and delete 
+
+# Aula 13 - Paginação da lista 
+    instalar mongoose-paginate 
+
+# Aula 14 - Adicionando CORS 
+    permitir que outros enderecos acessem a API
+    instalar CORS
+        - npm install cors
