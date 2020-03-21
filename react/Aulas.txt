@@ -1,0 +1,35 @@
+# Aula 1 - O que é ReactJS? 
+    O que é?
+        - É uma biblioteca para manipular a DOM, de forma mais organizada do que com javascript puro 
+        - JSX 
+    Por que utilizar? 
+
+# Aula 2 - Criando projeto 
+    node instalado 
+    instalar de forma global o create-react-app
+        - npm install -g create-react-app 
+    create-react-app nomeProjeto
+    cd nomeProjeto 
+
+# Aula 3 - O que são componentes ?
+    index.js é o primeiro arquivo a ser aberto pela aplicacao 
+    todo componente tem um metodo obrigatorio, o render();
+
+# Aula 4 - Criando Header
+
+# Aula 5 - Buscando produtos da API
+
+# Aula 6 - Armazenamento no estado 
+    no react existe conceito chamado estado, que é um objeto onde armazenamos variaveis da aplicacao
+    o metodo render() geralmente depende dessas variaveis 
+    render() fica ouvindo o objeto state, e qualquer alteracao nesse objeto é automaticamente atualizado na aplicacao 
+
+# Aula 7 - Listando produtos 
+    
+# Aula 8 - Página anterior/próxima
+
+# Aula 9 - Configurando navegação 
+    biblioteca de navegacao 
+        - yarn add react-router-dom
+
+# AUla 10 - Navegando pro detalhe
